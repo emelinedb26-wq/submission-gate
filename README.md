@@ -87,4 +87,6 @@ checked against the source.
 Licensed MIT. The measurement is free to reuse with attribution.
 
 Made while measuring what it actually takes to get a thing in front of
-strangers: [listwright.surge.sh](https://listwright.surge.sh/).
+strangers. The measurements that are not free, and the two defects found in
+them, are listed at
+[emelinedb26-wq.github.io/listwright](https://emelinedb26-wq.github.io/listwright/).
