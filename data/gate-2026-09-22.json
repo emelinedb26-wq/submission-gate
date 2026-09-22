@@ -1,0 +1,691 @@
+{
+ "measured_on": "2026-09-22",
+ "method": "For each host: robots.txt for the submission path, then the site root, from which the terms URL is DERIVED out of the anchors (never guessed), then the document is required to look like a legal text before any verdict, then prohibited-activity clauses are matched with their governing sentence searched up to 2500 chars back.",
+ "population": "The 86 destinations of type 'directory' and pricing 'free' in the public Submitlist catalog (data/destinations.json of alvinunreal/awesome-submitlist, CC0, synced 2026-09-21), deduplicated to 84 hosts.",
+ "totals": {
+  "hosts": 84,
+  "permitted": 16,
+  "forbidden": 23,
+  "undetermined": 45
+ },
+ "forbidden_breakdown": {
+  "robots_txt_on_submission_path": 5,
+  "terms_clause_covering_automated_use_or_submission": 7,
+  "terms_clause_covering_automated_collection_only": 11
+ },
+ "honest_caveat": "The 45 undetermined are a limit of this probe, not a property of those sites. All 18 terms clauses were read by hand before publication.",
+ "hosts": [
+  {
+   "host": "affiliate.watch",
+   "submission_path": "/submit-affiliate-program",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.aidirectori.es",
+   "submission_path": "/submit-ai-tool",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "ai-hunter.io",
+   "submission_path": "/submit-a-tool/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "aitoolsdirectory.com",
+   "submission_path": "/submit-tool",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "aitools.inc",
+   "submission_path": "/submit",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "aiwith.me",
+   "submission_path": "/submit/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.aitoolnet.com",
+   "submission_path": "/submit/",
+   "verdict": "PERMIS",
+   "terms_url": "https://www.aitoolnet.com/terms",
+   "terms_chars": 5360
+  },
+  {
+   "host": "altern.ai",
+   "submission_path": "/maker/submit/start",
+   "verdict": "PERMIS",
+   "terms_url": "https://altern.ai/terms",
+   "terms_chars": 3553
+  },
+  {
+   "host": "alternative.me",
+   "submission_path": "/how-to/submit-software/",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://alternative.me/terms/",
+   "governing_phrase": "prohibited",
+   "chars_from_governing_phrase": 942,
+   "quote": "rnet; (h) to collect or track the personal information of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet. We reserve the right to terminate your use of",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "alternativeto.net",
+   "submission_path": "/manage-item/",
+   "verdict": "INTERDIT",
+   "closed_by": "robots.txt",
+   "evidence": "robots.txt disallows /manage-item/ for User-agent: *",
+   "covers": "submission_url"
+  },
+  {
+   "host": "appagg.com",
+   "submission_path": "/add/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "help.appvizer.com",
+   "submission_path": "/en/articles/how-do-i-reference-software-on-appvizer",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "bestofai.com",
+   "submission_path": "/",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://bestofai.com/terms",
+   "governing_phrase": "you agree not to",
+   "chars_from_governing_phrase": 1555,
+   "quote": "e, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Site, or using or launching any unauthorized script or other software. Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Si",
+   "covers": "automated_use_or_submission",
+   "quote_hand_checked": "launch, develop, or distribute any automated system ... that accesses the Site, or using or launching any unauthorized script or other software"
+  },
+  {
+   "host": "www.bbb.org",
+   "submission_path": "/get-listed",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.brouseai.com",
+   "submission_path": "/submission/ai",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.brownbook.net",
+   "submission_path": "/register/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "knowledgebase.builtin.com",
+   "submission_path": "/s/article/How-do-I-create-a-company-profile",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.business-software.com",
+   "submission_path": "/add-your-product/",
+   "verdict": "PERMIS",
+   "terms_url": "https://www.business-software.com/terms-of-use/",
+   "terms_chars": 16584
+  },
+  {
+   "host": "app.g2digitalmarkets.com",
+   "submission_path": "/get-listed/start",
+   "verdict": "INTERDIT",
+   "closed_by": "robots.txt",
+   "evidence": "robots.txt disallows /get-listed/start for User-agent: *",
+   "covers": "submission_url"
+  },
+  {
+   "host": "clutch.co",
+   "submission_path": "/get-listed",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "download.cnet.com",
+   "submission_path": "/add-your-software/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.comparably.com",
+   "submission_path": "/company-tools",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.comparably.com/info/terms-of-service",
+   "governing_phrase": "you may not",
+   "chars_from_governing_phrase": 1039,
+   "quote": "; impersonate any person or entity or perform any other similar fraudulent activity, such as phishing; use any means to scrape or crawl any Web pages or content contained in the Websites or Apps (although Comparably may allow operators of public search engines to use spiders to index materials from the Websites for the sole purpose of creating",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "www.crowdreviews.com",
+   "submission_path": "/verify/get-started",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.crowdreviews.com/terms-of-use",
+   "governing_phrase": "You may not",
+   "chars_from_governing_phrase": 1600,
+   "quote": "any robot, spider, site search/retrieval application, or other automated device, process, or means to access, retrieve, scrape, or index any portion of the Site or any Site Content. G. Reuse of the Site By using our Site, you agree not to attempt to reuse the Site in any way for commercial or non-commercial purposes outside of CrowdReviews.com.",
+   "covers": "automated_use_or_submission",
+   "quote_hand_checked": "use any robot, spider, site search/retrieval application, or other automated device, process, or means to access, retrieve, scrape, or index any portion of the Site"
+  },
+  {
+   "host": "vendor.revleads.com",
+   "submission_path": "/user/signup",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.cuspera.com",
+   "submission_path": "/vendors",
+   "verdict": "PERMIS",
+   "terms_url": "https://www.cuspera.com/terms",
+   "terms_chars": 3058
+  },
+  {
+   "host": "support.cybo.com",
+   "submission_path": "/hc/en-us/articles/8725672371469-How-do-I-Add-a-Business",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.dark.design",
+   "submission_path": "/auth/login",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.darkmodedesign.com",
+   "submission_path": "/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "index.dodopayments.com",
+   "submission_path": "/submit",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "e27.co",
+   "submission_path": "/startup/create/profile/",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://e27.co/terms/",
+   "governing_phrase": "you agree not to",
+   "chars_from_governing_phrase": 208,
+   "quote": ", or Third Party User Content on another website or server, for example through framing, mirroring, linking, spidering, scraping or any other technological means (including any technology available in the future), without the prior written permission of OPTIMATIC. 4.3. You may for your personal, non-commercial use: 4.3.1. retrieve and display OPT",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "www.ebool.com",
+   "submission_path": "/submit",
+   "verdict": "PERMIS",
+   "terms_url": "https://www.ebool.com/terms",
+   "terms_chars": 4895
+  },
+  {
+   "host": "ecomm.design",
+   "submission_path": "/submit/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.f6s.com",
+   "submission_path": "/",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.f6s.com/terms",
+   "governing_phrase": "You may not",
+   "chars_from_governing_phrase": 57,
+   "quote": "ny and all rights whatsoever in and to our content. You may not do any of the following while using the Service: crawl, scrape or otherwise retrieve any data whatsoever except through the interfaces that we support for direct, non-automated use by users, unless specifically permitted by our robots.txt file or explicitly authorized by us; scan o",
+   "covers": "automated_use_or_submission",
+   "quote_hand_checked": "crawl, scrape or otherwise retrieve any data whatsoever except through the interfaces that we support for direct, non-automated use by users"
+  },
+  {
+   "host": "featuredcustomers.com",
+   "submission_path": "/vendor-solutions",
+   "verdict": "PERMIS",
+   "terms_url": "https://www.featuredcustomers.com/terms",
+   "terms_chars": 9540
+  },
+  {
+   "host": "findstack.com",
+   "submission_path": "/get-listed",
+   "verdict": "PERMIS",
+   "terms_url": "https://findstack.com/terms",
+   "terms_chars": 12707
+  },
+  {
+   "host": "futuretools.io",
+   "submission_path": "/submit-a-tool",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "g2.com",
+   "submission_path": "/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.gartner.com",
+   "submission_path": "/peer-insights/vendor-portal/overview",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.geekwire.com",
+   "submission_path": "/submit-startup/",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.geekwire.com/termsofuse/",
+   "governing_phrase": "You may not",
+   "chars_from_governing_phrase": 1188,
+   "quote": "s, or procedures of any networks, equipment, or servers connected to or used to provide the Service; (b) using a robot, spider, or other automatic device, or manual process to monitor or copy any part of the Service without prior written permission; (c) using the Service for commercial purposes, including advertising any product, service, or po",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "getapp.com",
+   "submission_path": "/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.glassdoor.com",
+   "submission_path": "/employers/sign-up/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.goodfirms.co",
+   "submission_path": "/get-listed",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.goodfirms.co/terms-of-use",
+   "governing_phrase": "you agree not to",
+   "chars_from_governing_phrase": 2092,
+   "quote": "ctly or indirectly disturb the working of our infrastructure. Use software, devices, robots, scripts, or other means to scrape, crawl, or index any web page or other portion of our service. Engaging in replicating, mirroring, or simulating the appearance of, or trying to impersonate Goodfirms or any of its services. Attempt to gain unauthorized",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "gust.helpscoutdocs.com",
+   "submission_path": "/article/211-publishing-your-profile",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "tally.so",
+   "submission_path": "/r/w4Jb4b",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "land-book.com",
+   "submission_path": "/submission-guidelines",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://land-book.com/terms-of-service",
+   "governing_phrase": "you agree not to",
+   "chars_from_governing_phrase": 26,
+   "quote": ". 3. Acceptable Use and Prohibited Activities To keep Landbook safe and fair, you agree not to : use bots, crawlers, or scrapers to collect or copy content; interfere with, disrupt, or overload Landbook's systems; impersonate others or misrepresent your identity; post unlawful, defamatory, obscene, or misleading content; upload or distribute ma",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "www.llmrelevance.com",
+   "submission_path": "/submit",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "maxibestof.one",
+   "submission_path": "/submit",
+   "verdict": "PERMIS",
+   "terms_url": "https://maxibestof.one/legals",
+   "terms_chars": 5713
+  },
+  {
+   "host": "business.nextdoor.com",
+   "submission_path": "/en-us/getting-started/business-page",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "company.peerspot.com",
+   "submission_path": "/",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.peerspot.com/tos",
+   "governing_phrase": "Prohibited",
+   "chars_from_governing_phrase": 1962,
+   "quote": "as to produce multiple accounts, generate automated messages, generate page views to influence PeerSpot rankings, or to scrape, strip or mine data from PeerSpot without our express written permission. You will use the Services in a manner consistent with any and all applicable laws and regulations. 6. Gift Cards 1. In certain circumstances, as",
+   "covers": "automated_use_or_submission",
+   "quote_hand_checked": "produce multiple accounts, generate automated messages, generate page views to influence PeerSpot rankings"
+  },
+  {
+   "host": "www.provenexpert.com",
+   "submission_path": "/en-us/register/",
+   "verdict": "PERMIS",
+   "terms_url": "https://www.provenexpert.com/en-gb/privacy-policy/",
+   "terms_chars": 43894
+  },
+  {
+   "host": "github.com",
+   "submission_path": "/marcelscruz/public-apis/blob/main/CONTRIBUTING.md",
+   "verdict": "PERMIS",
+   "terms_url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+   "terms_chars": 45900
+  },
+  {
+   "host": "saasaitools.com",
+   "submission_path": "/submit-listing-2/",
+   "verdict": "PERMIS",
+   "terms_url": "https://saasaitools.com/terms/",
+   "terms_chars": 5728
+  },
+  {
+   "host": "www.saashub.com",
+   "submission_path": "/services/submit",
+   "verdict": "PERMIS",
+   "terms_url": "https://www.saashub.com/site/terms",
+   "terms_chars": 4129
+  },
+  {
+   "host": "saaspo.com",
+   "submission_path": "/submit",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "saasworthy.com",
+   "submission_path": "/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "pmo.selecthub.com",
+   "submission_path": "/claim-your-product/",
+   "verdict": "INTERDIT",
+   "closed_by": "robots.txt",
+   "evidence": "robots.txt disallows /claim-your-product/ for User-agent: *",
+   "covers": "submission_url"
+  },
+  {
+   "host": "www.serchen.com",
+   "submission_path": "/get-listed/",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.serchen.com/terms",
+   "governing_phrase": "You agree not to",
+   "chars_from_governing_phrase": 564,
+   "quote": "communications; use the Site for any purpose other than legitimate business and professional use. 7. Automated Access, Scraping and AI Training Without our prior written permission, you may not: (a) access, copy, scrape, harvest, cache, index, store, or extract any content or data from the Site — including reviews, ratings, Vendor profiles, cate",
+   "covers": "automated_use_or_submission",
+   "quote_hand_checked": "7. Automated Access, Scraping and AI Training. Without our prior written permission, you may not: (a) access, copy, scrape, harvest, cache, index, store, or extract any content or data from the Site"
+  },
+  {
+   "host": "www.smartcustomer.com",
+   "submission_path": "/business",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.smartcustomer.com/terms",
+   "governing_phrase": "You agree not to",
+   "chars_from_governing_phrase": 1602,
+   "quote": "any robot, spider, site search/retrieval application, or other automated device, process or means to access, retrieve, scrape, or index any portion of the Site or any Site Content; Reverse engineer any portion of the Site; Remove or modify any copyright, trademark or other proprietary rights notice that appears on any portion of the Site or on",
+   "covers": "automated_use_or_submission",
+   "quote_hand_checked": "use any robot, spider, site search/retrieval application, or other automated device, process or means to access, retrieve, scrape, or index any portion of the Site"
+  },
+  {
+   "host": "www.sitelike.org",
+   "submission_path": "/add-site",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "publishing-center.softonic.com",
+   "submission_path": "/home",
+   "verdict": "INTERDIT",
+   "closed_by": "robots.txt",
+   "evidence": "robots.txt disallows /home for User-agent: *",
+   "covers": "submission_url"
+  },
+  {
+   "host": "www.softpedia.com",
+   "submission_path": "/user/submit.shtml",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.softwaresuggest.com",
+   "submission_path": "/vendors",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.softwaresuggest.com/tos",
+   "governing_phrase": "You may not",
+   "chars_from_governing_phrase": 453,
+   "quote": "ntent, you agree that others may view and share your Content. That you will not use any automated means or form of data scraping or data extraction to access, query, download or otherwise collect our Content or related information from any of our Sites (except as expressly permitted by us) or otherwise without authorization use or upload our Cont",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "www.softwareworld.co",
+   "submission_path": "/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "stackshare.io",
+   "submission_path": "/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.startupblink.com",
+   "submission_path": "/startups/add",
+   "verdict": "PERMIS",
+   "terms_url": "https://www.startupblink.com/blog/terms-conditions/",
+   "terms_chars": 13272
+  },
+  {
+   "host": "startupbuffer.com",
+   "submission_path": "/site/submit",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.stork.ai",
+   "submission_path": "/submit",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.stork.ai/terms",
+   "governing_phrase": "You agree not to",
+   "chars_from_governing_phrase": 531,
+   "quote": "ion To upload or transmit viruses or any other type of malicious code To spam, phish, pharm, pretext, spider, crawl, or scrape To interfere with or circumvent the security features of the Service Additional rules apply to images, audio and other media you upload to our AI tools. You may not use them: To upload media you do not own or do not hav",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "docs.stripe.com",
+   "submission_path": "/directory",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "tailkits.com",
+   "submission_path": "/submit-product/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "techbehemoths.com",
+   "submission_path": "/companies/get-listed",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://techbehemoths.com/terms",
+   "governing_phrase": "you agree not to",
+   "chars_from_governing_phrase": 1126,
+   "quote": "ngage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools. Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site. Attempt to impersonate another user or person or use the",
+   "covers": "automated_use_or_submission",
+   "quote_hand_checked": "engage in any automated use of the system, such as using scripts to send comments or messages"
+  },
+  {
+   "host": "solutions.technologyadvice.com",
+   "submission_path": "/list-your-product/",
+   "verdict": "PERMIS",
+   "terms_url": "https://solutions.technologyadvice.com/terms-conditions/",
+   "terms_chars": 27846
+  },
+  {
+   "host": "startupproject.org",
+   "submission_path": "/submit-startup/",
+   "verdict": "PERMIS",
+   "terms_url": "https://startupproject.org/terms/",
+   "terms_chars": 3499
+  },
+  {
+   "host": "www.tipseason.com",
+   "submission_path": "/ai-tools/submit-free",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.toolpilot.ai",
+   "submission_path": "/pages/submit-your-ai-tool",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://www.toolpilot.ai/policies/terms-of-service",
+   "governing_phrase": "prohibited",
+   "chars_from_governing_phrase": 942,
+   "quote": "rnet; (h) to collect or track the personal information of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet. We reserve the right to terminate your use of",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "www.toools.design",
+   "submission_path": "/suggest-a-tool",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "toptools.ai",
+   "submission_path": "/submit",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "trustmrr.com",
+   "submission_path": "/dashboard",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://trustmrr.com/terms",
+   "governing_phrase": "You must not",
+   "chars_from_governing_phrase": 1554,
+   "quote": "I-derived datasets to another person, including through a competing API, download, feed, database, or data marketplace. Scrape, harvest, archive, or systematically reconstruct TrustMRR's database; exceed documented limits; evade pagination or access controls; or combine multiple accounts, keys, IP addresses, agents, or services to bypass restri",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "business.trustpilot.com",
+   "submission_path": "/",
+   "verdict": "INTERDIT",
+   "closed_by": "terms",
+   "terms_url": "https://corporate.trustpilot.com/legal/for-businesses/terms-of-use-and-sale-for-businesses",
+   "governing_phrase": "you must not",
+   "chars_from_governing_phrase": 75,
+   "quote": "limiting the previous statement, you must not carry out, facilitate, authorise or permit any text or data mining or web scraping in relation to our platform or services for any purpose, including the development, training, fine-tuning or validation of artificial intelligence systems or models, and we do not consent to the use of our platform or s",
+   "covers": "automated_collection"
+  },
+  {
+   "host": "solutions.trustradius.com",
+   "submission_path": "/",
+   "verdict": "PERMIS",
+   "terms_url": "https://www.trustradius.com/static/privacy-policy",
+   "terms_chars": 38784
+  },
+  {
+   "host": "www.ventureradar.com",
+   "submission_path": "/add_company",
+   "verdict": "INTERDIT",
+   "closed_by": "robots.txt",
+   "evidence": "robots.txt disallows /add_company for User-agent: *",
+   "covers": "submission_url"
+  },
+  {
+   "host": "www.webdesign-inspiration.com",
+   "submission_path": "/web-design-site/submit",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "whatsthebigdata.com",
+   "submission_path": "/submit-new-ai-tool/",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "whattheai.tech",
+   "submission_path": "/submit",
+   "verdict": "INDETERMINE",
+   "why_unknown": "no linked candidate passed the legal-document test",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  },
+  {
+   "host": "www.yellowpages.com",
+   "submission_path": "/claim-your-listing",
+   "verdict": "INDETERMINE",
+   "why_unknown": "root page links no legal document in the served HTML",
+   "note": "This measures the probe, not the site. Many footers are built client-side."
+  }
+ ]
+}
